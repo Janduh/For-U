@@ -1,0 +1,105 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Monthsary</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            background-color: #f8f4f1;
+            color: #4b3f2f;
+            text-align: center;
+            padding: 20px;
+            background-image: url('https://www.w3schools.com/w3images/oldpaper.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            line-height: 1.6;
+            position: relative;
+            overflow: hidden;
+        }
+        .color-change {
+            font-size: 60px;
+            color: #d48f77;
+            animation: colorchange 5s infinite;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        @keyframes colorchange {
+            0% { color: #d48f77; }
+            20% { color: #f1b1a7; }
+            40% { color: #f4e3b3; }
+            60% { color: #9fbd7e; }
+            80% { color: #68a2d8; }
+            100% { color: #d6a7d0; }
+        }
+        .message {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid #e4b3a5;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            max-width: 600px;
+            box-shadow: 0 0 10px #d1a7b2;
+            font-size: 24px;
+            text-transform: uppercase;
+            line-height: 1.8;
+            color: #4b3f2f;
+        }
+        .poem {
+            font-size: 20px;
+            color: #d1a7b2;
+            margin-top: 20px;
+            line-height: 1.8;
+            font-style: italic;
+            animation: poemcolorchange 10s infinite;
+        }
+        @keyframes poemcolorchange {
+            0% { color: #d1a7b2; }
+            25% { color: #f7c6c7; }
+            50% { color: #f3e1e1; }
+            75% { color: #c6d6d9; }
+            100% { color: #d1a7b2; }
+        }
+        .decorations {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        .decorations img {
+            position: absolute;
+            max-width: 150px;
+            opacity: 0.7;
+        }
+        .flower1 { top: 10px; left: 10px; }
+        .flower2 { bottom: 10px; right: 10px; }
+        .bow { top: 20%; right: 20%; }
+        .butterfly1 { top: 30%; left: 20%; }
+        .butterfly2 { bottom: 30%; right: 20%; }
+    </style>
+</head>
+<body>
+    <div class="decorations">
+        <img src="https://www.w3schools.com/w3images/flower.png" alt="Flower 1" class="flower1">
+        <img src="https://www.w3schools.com/w3images/flower.png" alt="Flower 2" class="flower2">
+        <img src="https://www.w3schools.com/w3images/bow.png" alt="Bow" class="bow">
+        <img src="https://www.w3schools.com/w3images/butterfly.png" alt="Butterfly 1" class="butterfly1">
+        <img src="https://www.w3schools.com/w3images/butterfly.png" alt="Butterfly 2" class="butterfly2">
+    </div>
+    <div class="poem">
+        <p>"LOVE IS NOT ABOUT HOW MUCH YOU SAY 'I LOVE YOU', BUT HOW MUCH YOU PROVE THAT IT'S TRUE."</p>
+        <p>"TO LOVE AND BE LOVED IS TO FEEL THE SUN FROM BOTH SIDES."</p>
+    </div>
+    <h1 class="color-change">✨ Happy Monthsary! ✨</h1>
+    <div class="message">
+        <p>I'M REALLY SORRY FOR BEING OVERLY EMOTIONAL LATELY. I KNOW THAT SOMETIMES I GET SUDDENLY SAD AND JEALOUS, AND I REALIZE IT'S BECAUSE I REALLY APPRECIATE YOUR LOVE AND ATTENTION. GUSTO KO LANG SANANG AKO YUNG PINAGTUTUUNAN MO NG PANSIN, AND IT HURTS ME WHEN I SEE YOU GIVING ATTENTION TO OTHERS, WHETHER IT'S KUYA ANDREI, YOUR FRIENDS, OR ANYONE ELSE. I CAN'T HELP BUT WORRY NA BAKA MAS NAGE-ENJOY KA SA COMPANY NILA KAYSA SA AKIN. :(</p>
+        <p>I KNOW IT'S NOT FAIR TO YOU, AND I'M SORRY FOR MAKING YOU FEEL THIS WAY. I JUST WANT TO BE HONEST ABOUT MY FEELINGS BECAUSE I DON'T WANT YOU TO FEEL PRESSURED OR THAT I'M TRYING TO CONTROL YOU. I REALLY WANT TO GET BETTER AND SUPPORT YOU IN A WAY THAT MAKES US BOTH FEEL GOOD. KUNG EVER NA FEEL MO NA OVERWHELMED OR UNSURE DAHIL SA ACTIONS KO, PLEASE LET ME KNOW. I'M WORKING ON MYSELF AND TRYING TO MAKE THINGS BETTER FOR BOTH OF US.</p>
+        <p>I HOPE NA HINDI KA MAGSAWA SA AKIN DAHIL SA MGA ACTIONS KO TOWARDS YOU. I LOVE YOU SO MUCH, AND I WANT US TO BE HAPPY TOGETHER. SINASABI KO ITO PARA MALAMAN MO KUNG SAAN AKO NANGGAGALING, AND I HOPE WE CAN TALK THROUGH IT. PLEASE DON'T LEAVE ME. I TRULY WANT US TO STAY TOGETHER.</p>
+        <p>I LOVE YOU, BABY. 🐰</p>
+    </div>
+</body>
+</html>
